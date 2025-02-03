@@ -9,19 +9,62 @@ body {
     height: 100vh;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* border-bottom: #1a0000; */
 header {
-  font-family: "Vollkorn",serif;
-  background-color: #1a0000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(48, 11, 11, 0.3);
+  position: absolute;
   color: aliceblue;
+  width: 100%;
+  font-size: 1.2em;
 }
 
 .hero-section {
     height: 100vh;
     background: 
-      radial-gradient(circle at top left, #803b2e, transparent 60%),
-      radial-gradient(circle at bottom left, #4a0404, transparent 70%),
-      radial-gradient(circle at bottom right, #1a0000, #0b0000 80%);
+      radial-gradient(circle at top left, #803b2e, transparent 30%),
+      radial-gradient(circle at bottom left, #4a0404, transparent 30%);
     background-color: #0a0000; /* Базовый фон на случай несовместимости */
-    color: white; /* Текст на фоне */
-  }
+    color: white;
+    display: flex;
+}
+
+.header__company-name {
+  padding-left: 100px;
+}
+
+.header__navigation-list {
+  display: flex;
+  padding-right: 100px;
+}
+
+header li {
+  padding: 10px;
+  padding-left: 60px;
+}
+
+.hero-section__info {
+  font-family: 'Raleway';
+  font-weight: lighter;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+
+.hero-section__image {
+  width: auto;
+}
 
