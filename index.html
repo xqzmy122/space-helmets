@@ -8,13 +8,15 @@
     <title>SpaceHelmet</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="header__company-name" style="font-family: Vollkorn; ">Rocketeer</div>
+        <div class="header__company-name" style="font-family: Vollkorn; "><a href="#">Rocketeer</a></div>
         <div class="header__navigation">
             <ul class="header__navigation-list" style="font-family: Raleway;">
                 <li><a href="#">Home</a></li>
@@ -27,15 +29,99 @@
 
     <section class="hero-section">
         <div class="hero-section__info">
-            <p style="font-size: 6.4em; ">The future <br> is <span style="font-weight: 400;">now</span></p>
-            <p class="hero-section__info__text" style="max-width: 460px;">Rocketeer helmets is a visionary enterprice that is trying to improve 
+
+            <p class="hero-section__info-text_larger">The future <br> is <span style="font-weight: 600;">now</span></p>
+
+            <p class="hero-section__info-text">Rocketeer helmets is a visionary enterprice that is trying to improve
                 your health by buildung modern and comfortable helmets for you.
             </p>
+
+            <p class="hero-section__info-text_smaller" style="font-size: 0.9em;">Enter your email to get the latest news
+            </p>
+
+            <form action="#" method="get" class="info-form">
+                <input class="info-form__input" placeholder="Enter your email here" type="email" name="useremail" id="">
+                <button class="info-form__button">Submit</button>
+            </form>
         </div>
         <div class="hero-section__image">
-
+            <img src="/source/images/image 3.png" alt="">
         </div>
     </section>
+
+    <section class="about-us">
+        <div class="about-us__image">
+            <div class="about-us__text">
+                <h2 class="about-us__text-title">About us</h2>
+                <p class="about-us__text-subtitle">Our mission is change the way you explore the space</p>
+                <p class="about-us__text-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis adipisci
+                    non recusandae ea explicabo voluptates laudantium fugit ratione, velit, ad sit fugiat enim earum id
+                    nobis expedita quisquam architecto labore? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Corporis ea temporibus laudantium non porro, voluptates tempore, adipisci, obcaecati alias officia
+                    assumenda iusto possimus quae quod necessitatibus veritatis. Officia, sequi rerum.</p>
+            </div>
+            <img src="/source/images/image-aboutUs.png" alt="">
+        </div>
+    </section>
+
+    <section class="product-info_upper">
+        <div class="product-info_upper__image">
+            <img src="/source/images/left-astronaut.png" alt="">
+        </div>
+        <div class="product-info_upper__desc">
+            <h2>Advanced communication system</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quibusdam repellendus porro dolorum id
+                vel in nemo consectetur dolorem cumque, ut sed fuga deserunt quam debitis dolor eius molestiae
+                doloribus?</p>
+            <button class="product-info_upper__button">Buy now</button>
+        </div>    
+    </section>
+
+    <section class="product-info_lower">
+        <div class="product-info_lower__desc">
+            <h2>Improved ventilation system</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quibusdam repellendus porro dolorum id
+                vel in nemo consectetur dolorem cumque, ut sed fuga deserunt quam debitis dolor eius molestiae
+                doloribus?</p>
+            <button class="product-info_lower__button">Buy now</button>
+        </div> 
+        <div class="product-info_lower__image">
+            <img src="/source/images/right-astronaut.png" alt="">
+        </div>
+    </section>
+
+    <section class="price-list">
+        <div class="basic-price card">
+            <div class="basic-price__body">
+                <h3>Basic</h3>
+                <p class="card-text">Lorem ipsum lqwsaerom <br> dolor sit in awert<br> amet, consectetur axwloui <br> adipisicing elit. swepo <br> At, mollitia.</p>
+                <p class="price">$230</p>
+            </div>
+        </div>
+        <div class="premium-price card">
+            <div class="premium-price__body">
+                <h3>Premium</h3>
+                <p class="card-text">Lorem ipsum lqwsaerom <br> dolor sit in awert<br> amet, consectetur axwloui <br> adipisicing elit. swepo <br> At, mollitia.</p>
+                <p class="price">$230</p>
+            </div>
+        </div>
+        <div class="pro-price card">
+            <div class="pro-price__body">
+                <h3>Pro</h3>
+                <p class="card-text">Lorem ipsum lqwsaerom <br> dolor sit in awert<br> amet, consectetur axwloui <br> adipisicing elit. swepo <br> At, mollitia.</p>
+                <p class="price">$230</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">
+            
+        </div>
+        <div class="footer-socials">
+
+        </div>
+    </footer>
 </body>
 
 </html>
